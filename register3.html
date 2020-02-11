@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500i,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css"/>
     <link rel="icon" type="image/png" href="assets/logo rdcasting.png">
     <title>RD CASTING</title>
 </head>
@@ -17,557 +17,577 @@
     <div class="red-nav"></div>
 
     <!--Form-->
-    <div class="container card-form">
-        <div class="row">
-            <div class="logo-form">
-                <img src="assets/forms/logo rdcasting.png" alt="">
-            </div>
-            <div class="col-12">
-                <h1 class="h1-form">¡Bienvenido a RDCasting!</h1>
-                <p class="p-form-title">Ya estamos casi finalizando. Ahora nos toca saber un poco más sobre ti.</p>
+    <div class="container">
+        <div class="card-form">
+
+            <!--Title-->
+            <div class="row form-sec">
+                <div class="logo-form">
+                    <img src="assets/forms/logo rdcasting.png" alt="">
+                </div>
+                <div class="col-12">
+                    <h1 class="h1-form">¡Bienvenido a RDCasting!</h1>
+                    <p class="p-form-title">Ya estamos casi finalizando. Ahora nos toca saber un poco más sobre ti.</p>
+                </div>
             </div>
             
-            <div class="form-sec">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="cont-avatar">
-                                        <img src="assets/forms/avatar.jpg" alt="" class="img-avatar">
-                                        <div class="text-pic">
-                                            <h3 class="h2-form2">Sube una fotografía</h3>
-                                            <p class="p-upload">La foto debe ser mínimo 300px X 300px</p>
-                                            <div class="form-group">
-                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            
 
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                    <div class="sliders-up">
-                                        <h3 class="h2-form2">Estatura</h3>
-                                        <p class="p-sub-form">Selecciona tu altura</p>
-                                        <div class="slidecontainer">
-                                            <input type="range" name="weight"  class="slider2" min="0" max="80" value="0">
-                                            <span  class="slider_label2"></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="split-form-sec-resp"></div>
-
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                    <div class="sliders-up">
-                                        <h3 class="h2-form2">Peso en Libras</h3>
-                                        <p class="p-sub-form">Selecciona tu altura</p>
-                                        <div class="slidecontainer">
-                                            <input type="range" name="weight"  class="slider" min="0" max="400" value="200">
-                                            <span  class="slider_label"></span>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--Apariencia fisica-->
-
-                        <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12">
-                            <h2 class="h2-form2">Apariencia física</h2>
-                            <p class="p-sub-form">Selecciona una sola opción por categoría.</p>
-                            <div class="row">
-                                
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
-                                    <h3 class="h3-form">Color de cabello</h3>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Rubio</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Castaño</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Marrón</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Pelirojo</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Negro</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Canoso</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1">Blanco</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
-                                    <h3 class="h3-form">Color de ojos</h3>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Castaño</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Ambar</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Avellana</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Verde</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Gris</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Negro</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios2">Azul</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
-                                    <h3 class="h3-form">Origen étnico</h3>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Clara</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Rosada</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Canela</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Morena</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Oscura</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios3">Negra</label>
-                                    </div>
-                                </div>
-                      
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
-                                    <h3 class="h3-form">Estructura física</h3>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Atlético</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Delgado</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Gordito</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Grande</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Musculoso</label>
-                                    </div>
-                                    <div class="form-check form-input2">
-                                        <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios4">Promedio</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="split-form-sec-resp"></div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                            <h2 class="h2-form2">Medidas</h2>
-                            <p class="p-sub-form">Selecciona tus medidas actuales.</p>
-                            <div class="form-input3">
-                                <label for="inputState">Camisa</label>
-                                <select id="inputState" class="form-control">
-                                  <option selected>XS</option>
-                                  <option selected>S</option>
-                                  <option selected>M</option>
-                                  <option selected>L</option>
-                                  <option selected>XL</option>
-                                  <option selected>XXL</option>
-                                  <option selected>XXXL</option>
-                                  <option selected>Selecciona uno...</option>
-                                </select>
-                            </div>
-                            <div class="form-input3">
-                                <label for="inputState">Pantalón</label>
-                                <select id="inputState" class="form-control">
-                                  <option selected>24</option>
-                                  <option selected>26</option>
-                                  <option selected>28</option>
-                                  <option selected>30</option>
-                                  <option selected>32</option>
-                                  <option selected>34</option>
-                                  <option selected>36</option>
-                                  <option selected>38</option>
-                                  <option selected>40</option>
-                                  <option selected>42</option>
-                                  <option selected>44</option>
-                                  <option selected>46</option>
-                                  <option selected>48</option>
-                                  <option selected>50</option>
-                                  <option selected>Selecciona uno...</option>
-                                </select>
-                            </div>
-                            
-                            <div class="form-input3">
-                                <label for="inputState">Zapatos</label>
-                                <select id="inputState" class="form-control">
-                                  <option selected>4</option>
-                                  <option selected>5</option>
-                                  <option selected>6</option>
-                                  <option selected>7</option>
-                                  <option selected>8</option>
-                                  <option selected>9</option>
-                                  <option selected>10</option>
-                                  <option selected>11</option>
-                                  <option selected>12</option>
-                                  <option selected>13</option>
-                                  <option selected>14</option>
-                                  <option selected>15</option>
-                                  <option selected>16</option>
-                                  <option selected>17</option>
-                                  <option selected>18</option>
-                                  <option selected>19</option>
-                                  <option selected>20</option>
-                                  <option selected>Selecciona uno...</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--Habilidades-->
-
-                        <div class="col-12">
-                            <h2 class="h2-form2">Habilidades</h2>
-                            <p class="p-sub-form">Cuéntanos en qué eres bueno.</p>
-                            <div class="row">
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
-                                    <h3 class="h3-form2">Músico</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Bajista</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Violoncello</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Clarinete</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Compositor</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">DJ</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Contrabajo</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Guitarra</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
-                                    <h3 class="h3-form2">Bailarín</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Merengue</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Bachata</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Salsa</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Hip-Hop</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
-                                    <h3 class="h3-form2">Modelo</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Pasarela</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Fotografía</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
-                                    <h3 class="h3-form2">Deportista</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Fútbol</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Basquetból</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Natación</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Béisbol</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
-                                    <h3 class="h3-form2">Cantante</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Soprano</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Mezzo-soprano</label>
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12">
-                                    <h3 class="h3-form2">Idiomas</h3>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Español</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Inglés</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Francés</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Italiano</label>
-                                    </div>
-                                </div>
-                                
-                               
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--Estas dispuesto a-->
-
-                        <div class="col-12">
-                            <h2 class="h2-form2">Estás dispuesto a</h2>
-                            <p class="p-sub-form">Solo selecciona las que realmente estarías dispuesto a realizar.</p>
-                            <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Pelarte la cabeza</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Afeitarte la barba</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Escenas desnudo</label>
-                                    </div>
-                                    <div class="form-check form-input">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label" for="defaultCheck1">Escenas con besos</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--Fechas no disponibles para trabajar-->
-
-                        <div class="col-12">
-                            <h2 class="h2-form2">¿En cuáles fechas no puedes trabajar?</h2>
-                            <p class="p-sub-form">Selecciona los rangos</p>
-                            <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                    <div>
-                                        <input type="text" name="daterange" value="01/01/2018 - 01/15/2020" class="date-picker"/>    
-                                    </div>
-                                    <a href=""> <img src="assets/forms/trash.svg" alt="" class="icon-button">Eliminar</a>    
-                                    <div>
-                                        <input type="text" name="daterange" value="" class="date-picker"/>
-                                    </div>
-                                    <div class="add-button">
-                                        <a href="" style="color: #008000;"> <img src="assets/forms/add.svg" alt="" class="icon-button-add">Agregar fecha</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--SIRECINE-->
-
-                        <div class="col-12">
-                            <h2 class="h2-form2">¿Tienes SIRECINE?</h2>
-                            <p class="p-sub-form">Adjunta una copia.</p>
-                            <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                    </div>
-                                    <div class="add-button">
-                                        <a href="" style="color: #008000;"> <img src="assets/forms/add.svg" alt="" class="icon-button-add">Agregar otro</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <!--Previous work-->
-
-                        <div class="col-12">
-                            <h2 class="h2-form2">Has participado anteriormente de alguna campaña publicitaria</h2>
-                            <p class="p-sub-form">Especifícanos en cuáles has colaborado</p>
-                            <div class="row">
-                                <div class="col-12 work-space">
-                                    <div class="row">
-                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                            <div class="form-input3">
-                                                <label for="inputState">Categoría</label>
-                                                <select id="inputState" class="form-control">
-                                                  <option selected>Alcohol</option>
-                                                  <option selected>Telefónica</option>
-                                                  <option selected>Institución Financiera</option>
-                                                  <option selected>Selecciona uno...</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 form-input3">
-                                            <label for="formGroupExampleInput">¿En qué año?</label>
-                                            <input type="number" class="form-control" name="datepicker" placeholder="2020">
-                                        </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 form-input3">
-                                            <label for="formGroupExampleInput">¿Cuál?</label>
-                                            <input type="text" class="form-control" name="datepicker" placeholder="...">
-                                        </div>
-                                        <div class="col-12">
-                                            <a href=""> <img src="assets/forms/trash.svg" alt="" class="icon-button">Eliminar</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="split-form-sec-resp"></div>
-                                <div class="col-12 work-space">
-                                    <div class="row">
-                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                                            <div class="form-input3">
-                                                <label for="inputState">Categoría</label>
-                                                <select id="inputState" class="form-control">
-                                                  <option selected>Selecciona uno...</option>
-                                                  <option selected>Alcohol</option>
-                                                  <option selected>Telefónica</option>
-                                                  <option selected>Institución Financiera</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 form-input3">
-                                            <label for="formGroupExampleInput">¿En qué año?</label>
-                                            <input type="number" class="form-control" name="datepicker" placeholder="2020">
-                                        </div>
-                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 form-input3">
-                                            <label for="formGroupExampleInput">¿Cuál?</label>
-                                            <input type="text" class="form-control" name="datepicker" placeholder="...">
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="add-button">
-                                                <a href="" style="color: #008000;"> <img src="assets/forms/add.svg" alt="" class="icon-button-add">Agregar otro</a>
-                                            </div>
+            <!--Upload pic-->
+            <div class="row form-sec">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="cont-avatar">
+                                    <img src="assets/forms/avatar.jpg" alt="" class="img-avatar">
+                                    <div class="text-pic">
+                                        <h3 class="h2-form2">Sube una fotografía</h3>
+                                        <p class="p-upload">La foto debe ser mínimo 300px X 300px</p>
+                                        <div class="form-group">
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="col-12">
-                            <div class="split-form-sec"></div>
-                        </div>
-
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                    <a href=""><button class="lg-button cancel-button">Cancelar</button></a>
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="sliders-up">
+                                    <h3 class="h2-form2">Estatura</h3>
+                                    <p class="p-sub-form">Selecciona tu altura</p>
+                                    <div class="slidecontainer">
+                                        <input type="range" name="weight"  class="slider2" min="0" max="80" value="0">
+                                        <span  class="slider_label2"></span>
+                                    </div>
                                 </div>
-                                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                                    <a href="success.html" class="a-button"><button class="lg-button complete-button">Registrarme</button></a>
+                            </div>
+
+                            <div class="split-form-sec-resp"></div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                                <div class="sliders-up">
+                                    <h3 class="h2-form2">Peso en Libras</h3>
+                                    <p class="p-sub-form">Selecciona tu altura</p>
+                                    <div class="slidecontainer">
+                                        <input type="range" name="weight"  class="slider" min="0" max="400" value="200">
+                                        <span  class="slider_label"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                
+            </div>
+            
+            
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+
+            <!--Apariencia fisica + Medidas-->
+
+            <div class="row form-sec">
+                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="h2-form2">Apariencia física</h2>
+                    <p class="p-sub-form">Selecciona una sola opción por categoría.</p>
+                        <div class="row">                
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
+                                <h3 class="h3-form">Color de cabello</h3>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Rubio</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Castaño</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Marrón</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Pelirojo</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Negro</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Canoso</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">Blanco</label>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
+                                <h3 class="h3-form">Color de ojos</h3>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Castaño</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Ambar</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Avellana</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Verde</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Gris</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Negro</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios2" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios2">Azul</label>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
+                                <h3 class="h3-form">Origen étnico</h3>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Clara</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Rosada</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Canela</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Morena</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Oscura</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios3" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios3">Negra</label>
+                                </div>
+                            </div>
+                        
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6 insec-row">
+                                <h3 class="h3-form">Estructura física</h3>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Atlético</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Delgado</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Gordito</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Grande</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Musculoso</label>
+                                </div>
+                                <div class="form-check form-input2">
+                                    <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios4" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios4">Promedio</label>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="split-form-sec-resp"></div>
+
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="h2-form2">Medidas</h2>
+                    <p class="p-sub-form">Selecciona tus medidas actuales.</p>
+                    <div class="form-input3">
+                        <label for="inputState">Camisa</label>
+                        <select id="inputState" class="form-control">
+                        <option selected>XS</option>
+                        <option selected>S</option>
+                        <option selected>M</option>
+                        <option selected>L</option>
+                        <option selected>XL</option>
+                        <option selected>XXL</option>
+                        <option selected>XXXL</option>
+                        <option selected>Selecciona uno...</option>
+                        </select>
+                    </div>
+                    <div class="form-input3">
+                        <label for="inputState">Pantalón</label>
+                        <select id="inputState" class="form-control">
+                        <option selected>24</option>
+                        <option selected>26</option>
+                        <option selected>28</option>
+                        <option selected>30</option>
+                        <option selected>32</option>
+                        <option selected>34</option>
+                        <option selected>36</option>
+                        <option selected>38</option>
+                        <option selected>40</option>
+                        <option selected>42</option>
+                        <option selected>44</option>
+                        <option selected>46</option>
+                        <option selected>48</option>
+                        <option selected>50</option>
+                        <option selected>Selecciona uno...</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-input3">
+                        <label for="inputState">Zapatos</label>
+                        <select id="inputState" class="form-control">
+                        <option selected>4</option>
+                        <option selected>5</option>
+                        <option selected>6</option>
+                        <option selected>7</option>
+                        <option selected>8</option>
+                        <option selected>9</option>
+                        <option selected>10</option>
+                        <option selected>11</option>
+                        <option selected>12</option>
+                        <option selected>13</option>
+                        <option selected>14</option>
+                        <option selected>15</option>
+                        <option selected>16</option>
+                        <option selected>17</option>
+                        <option selected>18</option>
+                        <option selected>19</option>
+                        <option selected>20</option>
+                        <option selected>Selecciona uno...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col-12 form-sec">
+                <div class="split-form-sec"></div>
+            </div>
+        
+                            
+            <!--Habilidades-->
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <h2 class="h2-form2">Habilidades</h2>
+                    <p class="p-sub-form">Cuéntanos en qué eres bueno.</p>
+                    <div class="row">
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
+                            <h3 class="h3-form2">Músico</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Bajista</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Violoncello</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Clarinete</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Compositor</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">DJ</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Contrabajo</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Guitarra</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
+                            <h3 class="h3-form2">Bailarín</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Merengue</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Bachata</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Salsa</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Hip-Hop</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
+                            <h3 class="h3-form2">Modelo</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Pasarela</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Fotografía</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
+                            <h3 class="h3-form2">Deportista</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Fútbol</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Basquetból</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Natación</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Béisbol</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12 insec-row">
+                            <h3 class="h3-form2">Cantante</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Soprano</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Mezzo-soprano</label>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-xs-12">
+                            <h3 class="h3-form2">Idiomas</h3>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Español</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Inglés</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Francés</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Italiano</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+            
+
+                            
+            <!--Estas dispuesto a-->
+            
+            <div class="row form-sec">
+                <div class="col-12">
+                    <h2 class="h2-form2">Estás dispuesto a</h2>
+                    <p class="p-sub-form">Solo selecciona las que realmente estarías dispuesto a realizar.</p>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Pelarte la cabeza</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Afeitarte la barba</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Escenas desnudo</label>
+                            </div>
+                            <div class="form-check form-input">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">Escenas con besos</label>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            
+
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+            
+                            
+
+            <!--Fechas no disponibles para trabajar-->
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <h2 class="h2-form2">¿En cuáles fechas no puedes trabajar?</h2>
+                    <p class="p-sub-form">Selecciona los rangos</p>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                            <div>
+                                <input type="text" name="daterange" value="01/01/2018 - 01/15/2020" class="date-picker"/>    
+                            </div>
+                            <a href=""> <img src="assets/forms/trash.svg" alt="" class="icon-button">Eliminar</a>    
+                            <div>
+                                <input type="text" name="daterange" value="" class="date-picker"/>
+                            </div>
+                            <div class="add-button">
+                                <a href="" style="color: #008000;"> <img src="assets/forms/add.svg" alt="" class="icon-button-add">Agregar fecha</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+            
+
+
+            <!--SIRECINE-->
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <h2 class="h2-form2">¿Tienes SIRECINE?</h2>
+                    <p class="p-sub-form">Adjunta una copia.</p>
+                    <div class="row sirecine-cont">
+                        <div class="sirecine-sec">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                            </div>
+                            <div class="col-4 remove">
+                                <button class="delete-btn">Eliminar</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <button class="btn-add-row" id="addsire">Agregar otro</button>
+                </div>
+            </div>
+            
+            
+
+    
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+
+
+            <!--Previous work-->
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <h2 class="h2-form2">Has participado anteriormente de alguna campaña publicitaria</h2>
+                    <p class="p-sub-form">Especifícanos en cuáles has colaborado</p>
+                    <div class="row">
+                        <div class="campaing-div">
+                            <div class="col-12 work-space campaing-sec">
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                                        <div class="form-input3">
+                                            <label for="inputState">Categoría</label>
+                                            <select id="inputState" class="form-control">
+                                            <option selected>Alcohol</option>
+                                            <option selected>Telefónica</option>
+                                            <option selected>Institución Financiera</option>
+                                            <option selected>Selecciona uno...</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 form-input3">
+                                        <label for="formGroupExampleInput">¿En qué año?</label>
+                                        <input type="number" class="form-control" name="datepicker" placeholder="2020">
+                                    </div>
+                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 form-input3">
+                                        <label for="formGroupExampleInput">¿Cuál?</label>
+                                        <input type="text" class="form-control" name="datepicker" placeholder="...">
+                                    </div>
+                                    <div class="col-4 remove">
+                                        <button class="delete-btn">Eliminar</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <button class="btn-add-row" id="add">Agregar otro</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="split-form-sec"></div>
+                </div>
+            </div>
+
+            
+
+            <div class="row form-sec">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <a href=""><button class="lg-button cancel-button">Cancelar</button></a>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                            <a href="success.html" class="a-button"><button class="lg-button complete-button">Registrarme</button></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-        </div>
-    </div>
+                
 
     <!--Footer-->
     <div class="small-footer">
@@ -576,14 +596,19 @@
         </div>
     </div>
 
+
     
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="js.js"></script>
+
+
+
+
     
     
 </body>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="magnific.css">
+    <link rel="stylesheet" href="slider.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500i,700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/logo rdcasting.png">
     <title>Bienvenido a RDCASTING</title>
@@ -108,7 +109,7 @@
                         <h2 class="h2-index">Regístra tu Perfil totalmente gratis</h2>
                         <div class="white-split-center"></div>
                         <div class="center-button">
-                            <a href="" class="a-button"><button class="full-button2 lg-button white-button">Haz clic aquí</button></a>
+                            <a href="register1.html" class="a-button"><button class="full-button2 lg-button white-button">Haz clic aquí</button></a>
                         </div>
                     </div>
                 </div>
@@ -170,68 +171,77 @@
                 <div class="col-12">
                     <h2 class="h2-index talents-title">Talentos RDCASTING presentes y brillando</h2>
                 </div>
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="assets/home/car 1.png" onclick="openModal();currentSlide(1)" alt="" class="img-carr">
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="assets/home/car 2.png"  onclick="openModal();currentSlide(2)" alt="" class="img-carr">
-                        </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <img src="assets/home/car 3.png" onclick="openModal();currentSlide(3)" alt="" class="img-carr">
-                        </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="pt-5 circle-1">
+      
+        <div class="container pb-5 position-relative">
+            <div class="row">
+                <div id="demo" class="carousel slide position-relative" data-ride="carousel">
+      
+            
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class=""></li>
+              <li data-target="#demo" data-slide-to="1" class="active"></li>
+
+            </ul>
+      
+     
+            <div class="carousel-inner">
+
+              <div class="carousel-item active carousel-item-left">
+                <div class="d-flex">
+                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+                    <img src="assets/home/car 1.png" alt="" class="carr-img">
+                  </div>
+                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+                    <img src="assets/home/car 2.png" alt="" class="carr-img">
+                  </div>
+                  <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
+                    <img src="assets/home/car 3.png" alt="" class="carr-img">
+                  </div>
+                </div>
+              </div>
+
+
+            
+            <div class="carousel-item carousel-item-next carousel-item-left">
+                <div class="d-flex">
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <img src="assets/home/car 4.jpeg" alt="" class="carr-img">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <img src="assets/home/car 5.jpeg" alt="" class="carr-img">
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
+                        <img src="assets/home/car 6.jpeg" alt="" class="carr-img">
                     </div>
                 </div>
             </div>
 
             
-                <div id="myModal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
-                <div class="modal-content">
-            
-                <div class="mySlides">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="assets/home/car 1.png" style="width:100%" class="img-modal"> 
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="assets/home/car 2.png" style="width:100%" class="img-modal">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="assets/home/car 3.png" style="width:100%" class="img-modal">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="assets/home/car 4.jpeg" style="width:100%" class="img-modal">
-                </div>
-            
-                <div class="mySlides">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="assets/home/car 5.jpeg" style="width:100%" class="img-modal">
-                </div>
+        </div>
 
-                <div class="mySlides">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="assets/home/car 6.jpeg" style="width:100%" class="img-modal">
-                </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             
-
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-                </div>
-            </div>
+      
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -5%;">
+              <img src="assets/home/next.svg" alt="" class="left-slider">
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next"
+              style="opacity: 1; transform: rotate(0deg); right: -5%;">
+              <img src="assets/home/next.svg" alt="" class="right-slider">
+            </a>
+      
+          </div>
+      
         </div>
     </div>
-
+      
+      </section>
+      
     
 
     <div class="instagram">

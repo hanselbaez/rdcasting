@@ -126,33 +126,72 @@
                             <p class="p-sub-form">Si eres Dominicano adjunta tu cédula y si eres extranjero adjunta tu pasaporte.</p>
                             <div class="row">
                                 <div class="col-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1"> Cédula </label>
-                                    </div>
+                                    <select id="test" name="form_select" onchange="showDiv()">
+                                        <option value="0">Dominicano</option>
+                                        <option value ="1">Extranjero</option>
+                                     </select>
                                 </div>
-                                <div class="col-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                        <label class="form-check-label" for="exampleRadios1"> Pasaporte</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                            <div class="form-group attach">
-                                                <label for="exampleFormControlFile1">Parte delantera</label>
-                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                  
+                                <div id="hidden_div2" style="display: contents;">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                <div class="form-group attach">
+                                                    <label for="exampleFormControlFile1">Parte delantera</label>
+                                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                            <div class="form-group attach">
-                                                <label for="exampleFormControlFile1">Parte Trasera</label>
-                                                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                <div class="form-group attach">
+                                                    <label for="exampleFormControlFile1">Parte Trasera</label>
+                                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div id="hidden_div" style="display: none;">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                <div class="form-group attach">
+                                                    <label for="exampleFormControlFile1">Copia Pasaporte</label>
+                                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                           
+                                
+
+
+
+                                <script>
+                                    function showDiv(){
+                                        getSelectValue = document.getElementById("test").value;
+                                        if(getSelectValue == "1"){
+                                            document.getElementById("hidden_div").style.display="contents";
+                                        }else{
+                                            document.getElementById("hidden_div").style.display="none";
+                                        }
+                                        if(getSelectValue == "0"){
+                                            document.getElementById("hidden_div2").style.display="contents";
+                                        }else{
+                                            document.getElementById("hidden_div2").style.display="none";
+                                        }
+                                    }
+
+
+
+
+
+                                </script>
+
                             </div>
                         </div>
 
@@ -194,7 +233,6 @@
             <p class="p-small-footer">© RD Casting 2020</p>
         </div>
     </div>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
