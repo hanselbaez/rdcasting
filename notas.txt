@@ -1,7 +1,0 @@
-en el homepage los Talentos RDCASTING presentes y brillando deben ser un carrusel para que salgan más de los 3 que están ahí
-en el primer formulario, por defecto debe ser cédula, y cuando se seleccione pasaporte debe ser uno solo y no dos como con la cédula  (Listo)
-
-el email del código de confirmación está horrible (Pendiente)
-
-tampoco puedo agregar mas de un sirecine (Pendiente)
-ni eliminar o agregar experiencias de trabajo (Listo)
